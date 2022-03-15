@@ -4,8 +4,8 @@ import styled from "styled-components"
 import {
   FaGithub,
   FaKaggle,
-  FaFacebook,
-  FaLinkedin,
+  // FaFacebook,
+  // FaLinkedin,
   FaInstagram,
   FaLink,
   FaEnvelope,
