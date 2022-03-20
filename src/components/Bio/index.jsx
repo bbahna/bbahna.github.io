@@ -6,7 +6,7 @@ import {
   FaKaggle,
   // FaFacebook,
   // FaLinkedin,
-  FaInstagram,
+  // FaInstagram,
   FaLink,
   FaEnvelope,
 } from "react-icons/fa"
@@ -98,10 +98,10 @@ const Bio = () => {
           <Link link={kaggle}>
             <FaKaggle />
           </Link>
-          <Link link={instagram}>
+          {/* <Link link={instagram}>
             <FaInstagram />
           </Link>
-          {/* <Link link={facebook}>
+          <Link link={facebook}>
             <FaFacebook />
           </Link>
           <Link link={linkedIn}>
