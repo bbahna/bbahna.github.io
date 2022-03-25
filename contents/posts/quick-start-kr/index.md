@@ -1,8 +1,8 @@
 ---
-title: "🚀 2. 빠르게 시작하기"
+title: "빠르게 시작하기"
 description:
-date: 2021-04-02
-update: 2021-04-02
+date: 2022-03-02
+update: 2022-03-02
 tags:
   - hoodie
   - quick-start
