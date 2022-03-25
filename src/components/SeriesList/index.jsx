@@ -90,7 +90,7 @@ const SeriesList = ({ seriesList }) => {
             </SeriesWrapper>
 
             {seriesCount - 1 !== i && seriesList.length - 1 !== i && (
-              <Divider mt="48px" mb="32px" />
+              <Divider mt="40px" mb="32px" />
             )}
           </>
         )

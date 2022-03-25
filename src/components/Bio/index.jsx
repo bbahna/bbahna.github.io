@@ -87,7 +87,7 @@ const Bio = () => {
 
   return (
     <BioWrapper id="bio">
-      <Profile />
+      {/* <Profile /> */}
       <div>
         <Author>@{author}</Author>
         <Description>{description}</Description>
