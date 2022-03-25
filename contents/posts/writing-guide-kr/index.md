@@ -6,7 +6,7 @@ update: 2022-03-03
 tags:
   - hoodie
   - writing-guide
-series: "gatsby-starter-hoodie 로 블로그 시작하기"
+series: "gatsby-starter-hoodie"
 ---
 
 ## 1. 포스트 추가하기

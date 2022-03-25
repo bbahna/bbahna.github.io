@@ -6,7 +6,7 @@ update: 2022-03-02
 tags:
   - hoodie
   - quick-start
-series: "gatsby-starter-hoodie 로 블로그 시작하기"
+series: "gatsby-starter-hoodie"
 ---
 
 아래 단계를 따라서 여러분의 블로그를 시작하세요. 굉장히 쉬워요 😉.

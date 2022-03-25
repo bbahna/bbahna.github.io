@@ -6,7 +6,7 @@ update: 2022-03-04
 tags:
   - hoodie
   - other-tips
-series: "gatsby-starter-hoodie 로 블로그 시작하기"
+series: "gatsby-starter-hoodie"
 ---
 
 ## 파비콘은 어떻게 변경하나요?

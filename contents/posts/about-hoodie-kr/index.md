@@ -1,12 +1,12 @@
 ---
-title: "gatsby-starter-hoodie 에 대하여"
-description: "gatsby-starter-hoodie 에 대해 배워봅시다."
+title: "gatsby-starter-hoodie"
+description: "gatsby-starter-hoodie에 대해 배워봅시다."
 date: 2022-03-01
 update: 2022-03-01
 tags:
   - hoodie
   - about
-series: "gatsby-starter-hoodie 로 블로그 시작하기"
+series: "gatsby-starter-hoodie"
 ---
 
 ## gatsby-starter-hoodie 에 대하여
