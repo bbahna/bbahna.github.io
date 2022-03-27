@@ -1,6 +1,6 @@
 module.exports = {
   title: "bbahna",
-  description: "Hello. This is bbahna-blog :)",
+  description: "Hello. This is tech-blog :)",
   author: "bbahna",
   siteUrl: "https://bbahna.github.io",
   links: {

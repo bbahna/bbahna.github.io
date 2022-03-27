@@ -36,11 +36,8 @@ const HeaderWrapper = styled.header`
 const Inner = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 0 64px;
-
-  @media (max-width: 768px) {
-    margin: 0 15px;
-  }
+  margin: 0 auto;
+  max-width: 1000px;
 `
 
 const BlogTitle = styled.span`
