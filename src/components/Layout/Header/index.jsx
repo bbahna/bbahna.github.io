@@ -38,6 +38,11 @@ const Inner = styled.div`
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1000px;
+
+  @media (max-width: 768px) {
+    margin: 0 15px;
+    max-width: auto;
+  }
 `
 
 const BlogTitle = styled.span`
