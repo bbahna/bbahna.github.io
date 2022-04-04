@@ -1,16 +1,16 @@
 ---
-title: "About blog"
-description: "블로그 소개"
+title: "About bbahna?"
+description: ""
 date: 2022-03-31
 update: 2022-04-01
 tags:
   - gatsby
   - blog
   - about
-series: "bbahna-blog"
+series: "Tech-blog"
 ---
 
-> **[hyoon] gatsby tech-blog**는  [gatsby-starter-hoodie](https://github.com/devHudi/gatsby-starter-hoodie) template를 커스텀 하였습니다.
+> **[bbahna] gatsby tech-blog**는  [gatsby-starter-hoodie](https://github.com/devHudi/gatsby-starter-hoodie) template를 커스텀 하였습니다.
 
 - JAM stack (SEO) - Gatsby
 - template: 반응형, 다크모드, 커스텀, 검색기능, 태그
