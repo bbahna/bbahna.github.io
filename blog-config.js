@@ -8,7 +8,7 @@ module.exports = {
     instagram: "https://www.instagram.com",
     facebook: "https://www.facebook.com",
     linkedIn: "https://linkedin.com",
-    email: "mailto:moondomi_@naver.com",
+    email: "mailto:hyoon.dev@gmail.com",
   },
   utterances: {
     repo: "bbahna/bbahna.github.io",

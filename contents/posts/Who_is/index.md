@@ -16,7 +16,7 @@ export const hyoon = {
   role: 'Web Frontend developer',
   github: 'github.com/bbahna',
   blog: 'bbahna.github.io',
-  email: 'moondomi_@naver.com',
+  email: 'hyoon.dev@gmail.com',
   skill: ['JavaScript', 'TypeScript', 'React', 'Gatsby', ...],
 }
 ```
