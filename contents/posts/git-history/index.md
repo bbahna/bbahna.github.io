@@ -10,30 +10,30 @@ tags:
 series: "Git"
 ---
 
-##git commit history 전부 삭제하기
+## git commit history 전부 삭제하기
 
 >clone 후 기존 git commit history를 reset 후 새로운 commit history를 남기고 싶을 때 사용하면 됩니다.
 
 * warning: 이 방법을 사용하면 기존 커밋 히스토리가 전부 reset(초기화) 됩니다.
 
-#1. commit history 삭제
+### 1. commit history 삭제
 ```
 $ rm -rf .git
 ```
-#2. git 재설정
+### 2. git 재설정
 ```
 $ git init
 ```
-#3. git 커밋
+### 3. git 커밋
 ```
 $ git add .
 $ git commit -m "initial commit"
 ```
-#4. git 원격 저장소 연결
+### 4. git 원격 저장소 연결
 ```
 $ git remote add origin [저장소 URL]
 ```
-#5. git 원격 저장소 푸시 *(force: 기존 자료로 발생하는 에러를 무시한 강한 규칙 적용)*
+### 5. git 원격 저장소 푸시 *(force: 기존 자료로 발생하는 에러를 무시한 강한 규칙 적용)*
 ```
 $ git push -u --force origin master
 ```
