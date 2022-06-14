@@ -9,7 +9,7 @@ tags:
   - Nuxt
   - JAMStack
   - SEO
-series: "Javascript"
+series: "JavaScript"
 ---
 
 ## JAMStack

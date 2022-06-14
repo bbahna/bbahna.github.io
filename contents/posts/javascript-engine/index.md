@@ -8,7 +8,7 @@ tags:
   - engine
   - V8
   - SpiderMonkey
-series: "Javascript"
+series: "JavaScript"
 ---
 
 ## 자바스크립트란 
