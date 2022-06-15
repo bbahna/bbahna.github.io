@@ -1,8 +1,8 @@
 ---
 title: "[Git] commit history 초기화"
 description: ""
-date: 2022-05-30
-update: 2022-05-30
+date: 2022-06-10
+update: 2022-06-10
 tags:
   - git
   - commit
