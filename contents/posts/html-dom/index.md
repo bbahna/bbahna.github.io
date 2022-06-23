@@ -6,7 +6,7 @@ update: 2022-04-20
 tags:
   - HTML
   - DOM
-series: ""
+series: "WEB"
 ---
 
 ## HTML이란

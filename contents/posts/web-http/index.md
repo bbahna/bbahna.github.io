@@ -7,7 +7,7 @@ tags:
   - web
   - browser
   - http
-series: ""
+series: "WEB"
 ---
 
 ## 1. 웹 브라우저 동작원리

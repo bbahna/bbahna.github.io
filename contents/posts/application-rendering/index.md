@@ -8,7 +8,7 @@ tags:
   - SSR
   - SPA
   - MPA
-series: ""
+series: "WEB"
 ---
 
 ##

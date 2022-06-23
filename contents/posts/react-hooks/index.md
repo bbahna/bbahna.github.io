@@ -16,6 +16,7 @@ tags:
   - useDispatch
   - useSelector
   - portals
+series: "React"
 ---
 
 > **React hooks란?** <br/> 함수형 컴포넌트에서 기능을 추가할 때 사용하는 함수들
