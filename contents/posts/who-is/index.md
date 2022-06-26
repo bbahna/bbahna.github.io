@@ -7,7 +7,7 @@ tags:
   - hyoon
   - blog
   - about
-series: "Tech-blog"
+series: "tech-blog"
 ---
 
 ```jsx

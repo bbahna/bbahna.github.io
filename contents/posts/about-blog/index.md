@@ -7,7 +7,7 @@ tags:
   - gatsby
   - blog
   - about
-series: "Tech-blog"
+series: "tech-blog"
 ---
 
 > **[bbahna] gatsby tech-blog**는  [gatsby-starter-hoodie](https://github.com/devHudi/gatsby-starter-hoodie) template를 커스텀 하였습니다.
