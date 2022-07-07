@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-          access-token: ${{ secrets.BBAHNA_TOKEN }}
+          access-token: ${{ secrets.MASTER_TOKEN }}
 
       - name: Install dependencies
         run: yarn
