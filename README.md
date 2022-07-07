@@ -7,6 +7,4 @@
 - repository 생성
 - github page 배포
 - post build test (자동배포 테스트)
-- customizing
-
-_blog) ui, content 등 업데이트~ing_
+- customiz-ing
