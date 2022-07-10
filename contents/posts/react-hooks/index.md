@@ -52,7 +52,7 @@ series: "React"
   - props로 전달하기에 코드중첩, 가독성 등 좋지 않음
   - 중첩 구조가 복잡한 상황에서도 비교적 쉽게 데이터를 전달 할 수 있다
 
-## 8. ReactDom portals
+## 8. reactDom portal
   - 부모 컴포넌트의 DOM 계층 구조 바깥에 있는 DOM 노드로 자식을 렌더링하는 기능을 제공 <br/>
   -> 독립적인 구조를 가질 수 있음. 부모 컴포넌트의 제약에서 벗어날 수 있음. 왜? react 트리구조를 가지고 있기 때문에.
   [공식문서](https://ko.reactjs.org/docs/portals.html)
