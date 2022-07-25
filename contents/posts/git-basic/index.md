@@ -76,7 +76,7 @@ series: "Git"
     `$ git merge {branch_name}`
     
 
-## ****Tag(태그)****
+## Tag(태그)
 - 커밋을 참조하기 쉽도록 알기 쉬운 이름을 붙이는 것
 
     `$ git tag {태그 이름}`
