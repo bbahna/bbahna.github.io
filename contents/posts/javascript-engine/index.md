@@ -28,6 +28,11 @@ series: "JavaScript"
 - 모든 주요 브라우저에서 지원하고, 기본 언어로 사용됨
 - 간단한 일은 간단하게 처리할 수 있게 해줌
 
+## 호환성 표
+자바스크립트 메서드/함수 관련정보, 브라우저 지원여부 확인
+- [자바스크립트 해당 기능을 특정 엔진이 지원하는지](https://kangax.github.io/compat-table/es6/)
+- [브라우저가 특정 기능을 지원하는지](https://caniuse.com/)
+
 > 참고문서
 > - [JavaScript engine-wiki](https://en.wikipedia.org/wiki/JavaScript_engine)
 > - [자바스크립트 튜토리얼](https://ko.javascript.info/intro)
