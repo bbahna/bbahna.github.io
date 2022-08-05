@@ -57,6 +57,6 @@ series: "React"
   -> 독립적인 구조를 가질 수 있음. 부모 컴포넌트의 제약에서 벗어날 수 있음. 왜? react 트리구조를 가지고 있기 때문에.
   [공식문서](https://ko.reactjs.org/docs/portals.html)
 
-## +useDispatch, useSelector, useStore
-  - redux 관련 hook (추가 업데이트 예정)
+## +useSelector, useDispatch, useStore
+  - [redux 관련 hook](https://react-redux.js.org/api/hooks)
   
