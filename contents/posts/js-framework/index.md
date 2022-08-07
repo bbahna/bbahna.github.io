@@ -8,7 +8,6 @@ tags:
   - Next
   - Nuxt
   - JAMStack
-  - SEO
 series: "JavaScript"
 ---
 
