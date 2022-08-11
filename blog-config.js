@@ -5,10 +5,13 @@ module.exports = {
   siteUrl: "https://bbahna.github.io",
   links: {
     github: "https://github.com/bbahna",
+    velog: 'https://velog.io/@bbahna',
+    email: "mailto:hyoon.dev@gmail.com",
+    kaggle: '',
     instagram: "https://www.instagram.com",
     facebook: "https://www.facebook.com",
     linkedIn: "https://linkedin.com",
-    email: "mailto:hyoon.dev@gmail.com",
+    etc: 'https://velog.io/@bbahna',
   },
   utterances: {
     repo: "bbahna/bbahna.github.io",
