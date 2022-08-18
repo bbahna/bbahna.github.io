@@ -11,7 +11,7 @@ module.exports = {
     instagram: "https://www.instagram.com",
     facebook: "https://www.facebook.com",
     linkedIn: "https://linkedin.com",
-    etc: 'https://velog.io/@bbahna',
+    etc: '',
   },
   utterances: {
     repo: "bbahna/bbahna.github.io",

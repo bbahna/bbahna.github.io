@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 import {
   FaGithub,
+  FaHome,
   FaEnvelope,
   // FaKaggle,
   // FaFacebook,
@@ -27,6 +28,9 @@ const Bio = () => {
           <Link link={github}>
             <FaGithub />
           </Link>
+          <Link link={velog}>
+            <FaHome />
+          </Link>
           {/* <Link link={velog}>
             <Velog />
           </Link> */}
@@ -45,9 +49,9 @@ const Bio = () => {
           <Link link={linkedIn}>
             <FaLinkedin />
           </Link> */}
-          <Link link={etc}>
+          {/* <Link link={etc}>
             <FaLink />
-          </Link>
+          </Link> */}
         </LinksWrapper>
       </div>
     </BioWrapper>
@@ -96,7 +100,7 @@ const Description = styled.div`
 
 const LinksWrapper = styled.div`
   & a {
-    margin-right: 10px;
+    margin-right: 12px;
   }
 
   & svg {
