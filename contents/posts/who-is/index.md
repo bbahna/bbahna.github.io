@@ -13,7 +13,7 @@ series: "tech-blog"
 ```jsx
 export const hyoon = {
   name: 'yoon hyoJeong',
-  role: 'Web Frontend developer',
+  role: 'Web ui/ux design & Frontend develop',
   github: 'github.com/bbahna',
   blog: 'bbahna.github.io',
   email: 'hyoon.dev@gmail.com',

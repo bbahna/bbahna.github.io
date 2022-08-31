@@ -58,7 +58,7 @@ series: "WEB"
     - 서버 → 클라이언트 : respnse(응답)
 
 ### http요청
-- 읽기(READ)
+- 읽기(GET)
 - 쓰기(POST)
 - 수정(PUT)
 - 삭제(DELETE)
