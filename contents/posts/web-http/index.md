@@ -7,6 +7,7 @@ tags:
   - web
   - browser
   - http
+  - TIL
 series: "WEB"
 ---
 
@@ -62,3 +63,6 @@ series: "WEB"
 - 쓰기(POST)
 - 수정(PUT)
 - 삭제(DELETE)
+
+### 응답코드
+ - 추후 업데이트 예정 :)

@@ -8,6 +8,7 @@ tags:
   - Next
   - Nuxt
   - JAMStack
+  - TIL
 series: "JavaScript"
 ---
 
