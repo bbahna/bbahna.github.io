@@ -1,5 +1,5 @@
 ---
-title: "Github page 자동배포 설정"
+title: "Gatsby 개발기록 _github page 배포설정"
 description: ""
 date: 2022-05-01
 update: 2022-05-01
@@ -8,7 +8,7 @@ tags:
   - build
   - cicd
   - TIL
-series: "Git"
+series: "Gatsby"
 ---
 
 &nbsp;기술 블로그로 **Gatsby**를 선택한 후, 서버 배포에 대해 고민하다 **github-page를 이용하여 배포**하기로 하였습니다.<br />

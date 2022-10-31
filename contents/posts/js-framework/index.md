@@ -9,7 +9,7 @@ tags:
   - Nuxt
   - JAMStack
   - TIL
-series: "JavaScript"
+series: "Gatsby"
 ---
 
 **Gatsby**는 **JAM Stack을 활용한 정적 사이트 생성 프레임워크**
