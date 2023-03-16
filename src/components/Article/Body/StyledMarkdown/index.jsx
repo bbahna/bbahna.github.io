@@ -49,8 +49,8 @@ const StyledMarkdown = styled.div`
   }
 
   & h3 {
-    margin-top: 48px;
-    margin-bottom: 24px;
+    margin-top: 40px;
+    margin-bottom: 12px;
     font-size: 22.4px;
   }
 
@@ -161,7 +161,7 @@ const StyledMarkdown = styled.div`
   }
 
   & li {
-    margin-bottom: 12.8px;
+    margin-bottom: 8px;
   }
 
   & li p {
