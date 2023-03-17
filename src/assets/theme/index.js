@@ -39,7 +39,7 @@ export const light = {
 export const dark = {
   name: "dark",
   colors: {
-    bodyBackground: "#212529",
+    bodyBackground: "#202124",
     text: "#f8f9fa",
     secondaryText: "#ced4da",
     tertiaryText: "#adb5bd",
@@ -50,8 +50,8 @@ export const dark = {
     background: "#343a40",
     icon: "#adb5bd",
     divider: "#343a40",
-    headerBackground: "rgba(33, 37, 41, 0.85)",
-    headerShadow: "rgba(255, 255, 255, 0.08)",
+    headerBackground: "rgba(32, 33, 36, 0.85)",
+    headerShadow: "rgba(255, 255, 255, 0.06)",
     inlineCodeBackground: "#495057",
     inlineCodeBackgroundDarker: "#343a40",
     tagBackground: "#343a40",
