@@ -9,7 +9,7 @@ tags:
   - SPA
   - MPA
   - TIL
-series: "WEB"
+series: "Web"
 ---
 
 ## CSR(Client Side Rendering)

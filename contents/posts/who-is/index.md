@@ -7,7 +7,7 @@ tags:
   - hyoon
   - blog
   - about
-series: "tech-blog"
+series: "Tech-blog"
 ---
 
 ```jsx
@@ -20,6 +20,7 @@ export const hyoon = {
   skill: ['JavaScript', 'TypeScript', 'React', 'Gatsby', ...],
 }
 ```
+
 <h5 align="center">
 안녕하세요. 프론트엔드 웹 개발을 배우며 기록합니다.<br/>
 사용자의 UI/UX을 통한 비즈니스 가치 구현을 추구합니다.

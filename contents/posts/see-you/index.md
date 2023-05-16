@@ -7,7 +7,7 @@ tags:
   - hyoon
   - bbahna
   - velog
-series: "tech-blog"
+series: "Tech-blog"
 ---
 
 ### 블로그 아쉬웠던 점,,
