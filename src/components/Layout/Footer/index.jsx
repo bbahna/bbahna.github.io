@@ -20,10 +20,15 @@ const FooterWrapper = styled.footer`
 const Footer = () => {
   return (
     <FooterWrapper>
-      © {title}, Built with {" "}
+      ©
+      <a href="https://github.com/bbahna/bbahna.github.io" target="blank">
+        {title}
+      </a>
+      , Built with{" "}
       <a href="https://github.com/devHudi/gatsby-starter-hoodie" target="blank">
         gatsby-starter-hoodie
-      </a>.
+      </a>
+      .
     </FooterWrapper>
   )
 }

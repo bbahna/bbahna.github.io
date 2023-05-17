@@ -9,21 +9,26 @@ import {
   // FaFacebook,
   // FaLinkedin,
   // FaInstagram,
-  FaLink,
+  // FaLink,
 } from "react-icons/fa"
 // import Velog from '../../assets/velog.svg';
 
 import { siteUrl, description, author, links } from "../../../blog-config"
 
 const Bio = () => {
-  const { github, velog, email, kaggle, instagram, facebook, linkedIn, etc } = links
+  // const { github, velog, email, kaggle, instagram, facebook, linkedIn, etc } = links
+  const { github, velog, email } = links
 
   return (
     <BioWrapper id="bio">
       <Profile />
       <div>
-        <Author>@{author}</Author>
-        <Description>{description}</Description>
+        <Author>
+          @<a href="/who-is/">{author}</a>
+        </Author>
+        <Description>
+          <a href="/about-blog/">{description}</a>
+        </Description>
         <LinksWrapper>
           <Link link={github}>
             <FaGithub />
@@ -62,6 +67,15 @@ export default Bio
 const BioWrapper = styled.div`
   display: flex;
   align-items: center;
+  a {
+    color: ${props => props.theme.colors.text};
+    &:link {
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
   @media (max-width: 768px) {
     padding: 0 15px;
@@ -85,14 +99,14 @@ const Profile = styled.div`
 `
 
 const Author = styled.div`
-  margin-bottom: 5px;
+  padding-bottom: 10px;
   font-size: 24px;
   font-weight: 700;
   color: ${props => props.theme.colors.text};
 `
 
 const Description = styled.div`
-  margin-bottom: 12px;
+  padding-bottom: 12px;
   line-height: 1.5;
   font-size: 16px;
   color: ${props => props.theme.colors.secondaryText};
