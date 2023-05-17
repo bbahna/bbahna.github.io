@@ -31,11 +31,15 @@ const Date = styled.p`
 `
 
 const Excerpt = styled.p`
-  margin-bottom: 32px;
+  margin-bottom: 30px;
   line-height: 1.7;
   font-size: 16px;
   color: ${props => props.theme.colors.secondaryText};
   word-break: break-all;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 `
 
 const checkIsScrollAtBottom = () => {
