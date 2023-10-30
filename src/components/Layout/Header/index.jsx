@@ -14,10 +14,42 @@ import {
   FaListUl,
 } from "react-icons/fa"
 
+const NoticeWrapper = styled.a`
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background-color: ${props => props.theme.colors.tableBackground};
+  z-index: 1000;
+
+  &:link {
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 15px;
+    color: ${props => props.theme.colors.text};
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-weight: 600;
+
+    @media (max-width: 768px) {
+      margin: 0 15px;
+      max-width: auto;
+    }
+  }
+`
+
 const HeaderWrapper = styled.header`
   display: block;
   position: fixed;
-  top: ${props => (props.isHidden ? -60 : 0)}px;
+  top: ${props => (props.isHidden ? -15 : 45)}px;
   left: 0;
   right: 0;
   padding: 16px;
@@ -140,33 +172,38 @@ const Header = ({ toggleTheme }) => {
   }, [])
 
   return (
-    <HeaderWrapper isHidden={hidden}>
-      <Inner>
-        <BlogTitle>
-          <Link to="/">{title}</Link>
-        </BlogTitle>
-        <Menu>
-          <ToggleWrapper>
-            <IconRail theme={theme.name}>
-              <FaSun onClick={toggleTheme} />
-              <FaMoon onClick={toggleTheme} />
-            </IconRail>
-          </ToggleWrapper>
-          <Link to="/tags">
-            <FaTags />
-          </Link>
-          <Link to="/series">
-            <FaListUl />
-          </Link>
-          <Link to="/rss.xml">
-            <FaRss />
-          </Link>
-          <Link to="/search">
-            <FaSearch style={{ marginRight: 0 }} />
-          </Link>
-        </Menu>
-      </Inner>
-    </HeaderWrapper>
+    <>
+      <NoticeWrapper href="https://hyoon.dev/">
+        <p>🚀 블로그 이전했습니다.</p>
+      </NoticeWrapper>
+      <HeaderWrapper isHidden={hidden}>
+        <Inner>
+          <BlogTitle>
+            <Link to="/">{title}</Link>
+          </BlogTitle>
+          <Menu>
+            <ToggleWrapper>
+              <IconRail theme={theme.name}>
+                <FaSun onClick={toggleTheme} />
+                <FaMoon onClick={toggleTheme} />
+              </IconRail>
+            </ToggleWrapper>
+            <Link to="/tags">
+              <FaTags />
+            </Link>
+            <Link to="/series">
+              <FaListUl />
+            </Link>
+            <Link to="/rss.xml">
+              <FaRss />
+            </Link>
+            <Link to="/search">
+              <FaSearch style={{ marginRight: 0 }} />
+            </Link>
+          </Menu>
+        </Inner>
+      </HeaderWrapper>
+    </>
   )
 }
 
