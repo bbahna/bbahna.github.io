@@ -10,7 +10,7 @@
 
 ### 프로젝트 설명
 
-_<b>[[hyoon] gatsby tech-blog](https://bbahna.vercel.app)</b>는 [hoodie-template](https://github.com/devHudi/gatsby-starter-hoodie)를 커스텀 하였습니다._
+_<b>[[hyoon] gatsby tech-blog](https://bbahna.netlify.app)</b>는 [hoodie-template](https://github.com/devHudi/gatsby-starter-hoodie)를 커스텀 하였습니다._
 
 - JAM stack (SEO) - Gatsby
 - template: 반응형, 다크모드, 커스텀, 검색기능, 태그
