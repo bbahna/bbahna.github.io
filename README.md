@@ -1,6 +1,6 @@
 ## gatsby.js Blog project
 
-> node-version: 14.x.x
+> node-version: 20.x.x
 
 ### 초기 설정
 
